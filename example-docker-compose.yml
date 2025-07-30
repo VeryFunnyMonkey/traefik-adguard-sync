@@ -1,0 +1,9 @@
+services:
+  traefik-adguard-sync:
+    build: .
+    container_name: traefik-adguard-sync
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - path/to/traefik:/config:ro
