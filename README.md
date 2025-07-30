@@ -27,7 +27,6 @@ ADGUARD_URL=http://<adguard-ip>:<port>
 ADGUARD_USER=<adguard-username>
 ADGUARD_PASSWORD=<adguard-password>
 TRAEFIK_IP=<traefik-ip>
-CONFIG_DIR=/path/to/traefik/config
 ```
 
 ### 3. Build and Run with Docker Compose
